@@ -4,15 +4,54 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="87dp"
+        app:srcCompat="@drawable/sawi"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
     <TextView
+        android:id="@+id/Spk"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Sistem Pendukung Keputusan"
+        android:textColor="@color/black"
+        android:textCursorDrawable="@android:color/secondary_text_light"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="47dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kesehatan Sawi"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="76dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mari berjalan bersma sama"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="181dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tingkatkan kualitas hasil panen yang berkualitas tinggi"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="215dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
