@@ -9,11 +9,12 @@
      tools:layout_editor_absoluteY="1dp"
      android:fillViewport="true">
 
-     <Button
-         android:id="@+id/data"
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
-         android:text="Button"
-         tools:layout_editor_absoluteX="167dp"
-         tools:layout_editor_absoluteY="122dp" />
- </androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
