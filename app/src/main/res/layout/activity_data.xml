@@ -91,6 +91,7 @@
                 android:id="@+id/textView36"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="#4CAF50"
                 android:padding="5sp"
                 android:text="No"
                 android:textColor="#0C0C0C" />
@@ -99,6 +100,7 @@
                 android:id="@+id/textView37"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="#4CAF50"
                 android:padding="5sp"
                 android:text="Ukuran Akar"
                 android:textColor="#0C0C0C" />
@@ -107,6 +109,7 @@
                 android:id="@+id/textView38"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="#4CAF50"
                 android:padding="5sp"
                 android:text="Warna Akar"
                 android:textColor="#0C0C0C" />
@@ -115,6 +118,7 @@
                 android:id="@+id/textView39"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="#4CAF50"
                 android:padding="5sp"
                 android:text="Tekstur Akar"
                 android:textColor="#0C0C0C" />
@@ -123,6 +127,7 @@
                 android:id="@+id/textView40"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="#4CAF50"
                 android:padding="5sp"
                 android:text="Ukuran Batang"
                 android:textColor="#0C0C0C" />
