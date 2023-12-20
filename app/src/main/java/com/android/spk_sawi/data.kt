@@ -15,7 +15,6 @@ class data : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_data)
 
-<<<<<<< HEAD
         performGetRequest()
     }
 
@@ -36,8 +35,6 @@ class data : AppCompatActivity() {
             })
 
         q.add(stringRequest)
-=======
-        
->>>>>>> bb5a758df89394e238f9d7340b20e499a93da19e
+
     }
 }
